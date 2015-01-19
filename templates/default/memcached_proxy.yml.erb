@@ -1,0 +1,11 @@
+alpha:
+listen: 127.0.0.1:22121
+hash: fnv1a_64
+distribution: ketama
+backlog: 1024
+preconnect: true
+auto_eject_hosts: false
+server_retry_timeout: 2000
+server_failure_limit: 3
+servers:
+- 127.0.0.1:11211:1
